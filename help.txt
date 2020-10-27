@@ -9,3 +9,5 @@ git有一个灵活的暂存区叫做stage,stage也是在仓库中的
 在工作区的撤销修改命令：git checkout --filename
 在暂存区的撤销修改命令: git reset HEAD filename
 在版本库的撤销修改命令: git reset --hard HEAD^
+工作区删除文件命令：rm filename
+暂存区和仓库删除文件命令：git rm filename,然后git commit
