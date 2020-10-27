@@ -7,3 +7,5 @@
 采用工具对比工作区和仓库中内容的区别
 git有一个灵活的暂存区叫做stage,stage也是在仓库中的
 在工作区的撤销修改命令：git checkout --filename
+在暂存区的撤销修改命令: git reset HEAD filename
+在版本库的撤销修改命令: git reset --hard HEAD^
