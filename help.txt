@@ -6,3 +6,4 @@
 版本回退命令：回退到版本库中的上一个版本git reset --hard HEAD^
 采用工具对比工作区和仓库中内容的区别
 git有一个灵活的暂存区叫做stage,stage也是在仓库中的
+在工作区的撤销修改命令：git checkout --filename
